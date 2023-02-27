@@ -73,7 +73,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
 
-  const response = await fetch('https://pumps-python.cyclic.app',{
+  const response = await fetch('https://wild-plum-hare-suit.cyclic.app',{
   method: 'POST',
     headers: {
       'Content-Type': 'application/json'
